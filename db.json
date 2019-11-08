@@ -1,0 +1,64 @@
+{
+  "eventsmoLists": [
+    {
+      "id": 1,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/marble-cake-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    },
+    {
+      "id": 2,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/fat-rascal-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    },
+    {
+      "id": 3,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/fat-rascal-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    },
+    {
+      "id": 4,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/fat-rascal-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    },
+    {
+      "id": 5,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/fat-rascal-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    },
+    {
+      "id": 6,
+      "eventName": "Yoga Event",
+      "img": "/assets/img/fat-rascal-thumb.jpg",
+      "venue": "Putalisadak",
+      "space": "Yellow Nepal",
+      "status": "Step 4. Review",
+      "attendees": 999,
+      "lastEditedDate": "21:23 July 22, 2018"
+    }
+  ]
+}
