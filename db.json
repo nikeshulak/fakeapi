@@ -1,18 +1,79 @@
 {
+	"login": {
+	    "data": {
+	        "user": {
+	            "id": "484958b4-318e-4cf0-917b-449907ebc9bc",
+	            "email": "god@eventsmo.com",
+	            "firstName": "Gord",
+	            "lastName": "Admin"
+	        },
+	        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0ODQ5NThiNC0zMThlLTRjZjAtOTE3Yi00NDk5MDdlYmM5YmMiLCJpc3MiOiJldmVudHNtbyIsImV4cCI6MTU3NTk2MTA5Nn0.BWcaGIw3NlzAEfSplE_YMBwaJ5HVaR_mafIy6-17B7c"
+	    },
+	    "errorCode": null,
+	    "message": null
+	},
+
+	"spaces": {
+	    "data": {
+	        "spaces": [
+	            {
+	                "id": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
+	                "name": "EventsMo",
+	                "location": "EventsMo",
+	                "description": "EventsMo",
+	                "color": "#A6FD23",
+	                "coverPicture": "https://eventsmo.com/wp-content/uploads/2018/07/eventsmo_header1.jpeg",
+	                "icon": "https://eventsmo.com/wp-content/uploads/2018/04/eventsmo_logo_green_text.png",
+	                "created": 1575873763880,
+	                "updated": 1575873763880
+	            },
+	            {
+	                "id": "c1c778f4-8373-396f-9677-7788cbcecaee",
+	                "name": "Investment Banking",
+	                "location": "Apt. 972 9841 Boyd Skyway, Beckerberg, FL 88046-9640",
+	                "description": "Multi-channelled non-volatile architecture",
+	                "color": "#3675B2",
+	                "coverPicture": "http://lorempixel.com/640/480/technics/",
+	                "icon": "http://lorempixel.com/g/720/348/animals/",
+	                "created": 1575873763887,
+	                "updated": 1575873763887
+	            }
+	        ]
+	    },
+	    "errorCode": null,
+	    "message": null
+	},
+
   "spaceabouts": {
 	    "data": {
 	        "abouts": [
 	            {
 	                "id": 1,
-	                "spaceId": "c1c778f4-8373-396f-9677-7788cbcecaee",
+	                "spaceId": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
 	                "title": "About Us",
 	                "content": "Lorem ipsum dolor sit amet"
 	            },
 	            {
 	                "id": 2,
-	                "spaceId": "c1c778f4-8373-396f-9677-7788cbcecaee",
+	                "spaceId": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
 	                "title": "Version",
 	                "content": "Lorem ipsum dolor sit amet"
+	            }
+	        ]
+	    },
+	    "errorCode": null,
+	    "message": null
+	},
+
+	"followers": {
+	    "data": {
+	        "followers": [
+	            {
+	                "userId": "f7edde79-9fdb-369a-9e51-db80a3b9ca76",
+	                "name": "Markus Mitchell",
+	                "picture": "http://lorempixel.com/g/1024/768/abstract/",
+	                "bio": "wtf",
+	                "created": 1575888976082
 	            }
 	        ]
 	    },
