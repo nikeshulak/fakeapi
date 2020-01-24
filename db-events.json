@@ -1,0 +1,395 @@
+{
+  "loginResponse": {
+    "data": {
+      "user": {
+        "id": "484958b4-318e-4cf0-917b-449907ebc9bc",
+        "email": "god@eventsmo.com",
+        "firstName": "Gord",
+        "lastName": "Admin"
+      },
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0ODQ5NThiNC0zMThlLTRjZjAtOTE3Yi00NDk5MDdlYmM5YmMiLCJpc3MiOiJldmVudHNtbyIsImV4cCI6MTU3NTk2MTA5Nn0.BWcaGIw3NlzAEfSplE_YMBwaJ5HVaR_mafIy6-17B7c"
+    },
+    "errorCode": null,
+    "message": null
+  },
+  "usersMe": {
+    "data": {
+      "uniqueId": "484958b4-318e-4cf0-917b-449907ebc9bc",
+      "username": "eventsmo_admin",
+      "firstName": "Gord",
+      "lastName": "Admin",
+      "email": "god@eventsmo.com",
+      "phone": "98917871238",
+      "picture": "http://lorempixel.com/1680/1050/technics/",
+      "gender": "FEMALE",
+      "bio": "I am bio",
+      "city": "England",
+      "country": "England",
+      "designation": "God",
+      "industry": "Industry1",
+      "organization": "Org1",
+      "emailConfirmed": true,
+      "passwordHash": "$2a$10$gei.LgMAGWsZmlx5hemIhuiHVNWIZpHYAKTJvdIF2S3DQDuXGLA06",
+      "created": 1575785041706,
+      "updated": null,
+      "accountStatus": "ENABLED",
+      "companyName": "God Company",
+      "contactName": "Your grace",
+      "contactEmail": "god@eventsmo.com",
+      "stepsCompleted": 1,
+      "createdBy": null,
+      "updatedBy": null,
+      "accessLevel": "CAPTAIN",
+      "otherGender": null
+    },
+    "errorCode": null,
+    "message": null
+  },
+  "spaces": {
+    "data": {
+      "spaces": [
+        {
+          "id": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
+          "name": "EventsMo",
+          "location": "EventsMo",
+          "description": "EventsMo",
+          "color": "#A6FD23",
+          "coverPicture": "https://eventsmo.com/wp-content/uploads/2018/07/eventsmo_header1.jpeg",
+          "icon": "https://eventsmo.com/wp-content/uploads/2018/04/eventsmo_logo_green_text.png",
+          "created": 1575873763880,
+          "updated": 1575873763880
+        },
+        {
+          "id": "c1c778f4-8373-396f-9677-7788cbcecaee",
+          "name": "Investment Banking",
+          "location": "Apt. 972 9841 Boyd Skyway, Beckerberg, FL 88046-9640",
+          "description": "Multi-channelled non-volatile architecture",
+          "color": "#3675B2",
+          "coverPicture": "http://lorempixel.com/640/480/technics/",
+          "icon": "http://lorempixel.com/g/720/348/animals/",
+          "created": 1575873763887,
+          "updated": 1575873763887
+        }
+      ]
+    },
+    "errorCode": null,
+    "message": null
+  },
+
+  "": "POST spaces - response you get",
+  "spacesReponse": {
+    "data": {
+      "space": {
+        "id": "0074a268-54e5-40b4-aa77-05ca8a6d045f",
+        "name": "Fawesome 2",
+        "location": "Putalisadak",
+        "description": "Test",
+        "color": "#000000",
+        "coverPicture": "78ad84a7c9e34b6f9f6bdb6460eca8e0",
+        "icon": "85cb1d74331d4e67a40c75cdde82a612",
+        "created": 1576132043225,
+        "updated": 1576132043225
+      }
+    },
+    "errorCode": null,
+    "message": null
+  },
+
+  "abouts": {
+    "data": {
+      "abouts": [
+        {
+          "id": 1,
+          "spaceId": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
+          "title": "About Us",
+          "content": "Lorem ipsum dolor sit amet"
+        },
+        {
+          "id": 2,
+          "spaceId": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
+          "title": "Version",
+          "content": "Lorem ipsum dolor sit amet"
+        }
+      ]
+    },
+    "errorCode": null,
+    "message": null
+  },
+  "followers": {
+    "data": {
+      "followers": [
+        {
+          "userId": "f7edde79-9fdb-369a-9e51-db80a3b9ca76",
+          "name": "Markus Mitchell",
+          "picture": "http://lorempixel.com/g/1024/768/abstract/",
+          "bio": "wtf",
+          "created": 1575888976082
+        }
+      ]
+    },
+    "errorCode": null,
+    "message": null
+  },
+
+  "features": {
+    "data": {
+      "eventFeatures": [
+        {
+          "id": "806649e5-ba9e-48ea-a152-c991638247f7",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Speakers",
+          "icon": "icon-microphone",
+          "weight": 0,
+          "featureType": 1,
+          "disabled": false,
+          "count": 3,
+          "home": false
+        },
+        {
+          "id": "96eec0b0-502f-4066-a5d8-a0ead755a735",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Exhibitors",
+          "icon": "icon-chalkboard-teacher",
+          "weight": 1,
+          "featureType": 2,
+          "disabled": false,
+          "count": 2,
+          "home": false
+        },
+        {
+          "id": "7472ec4d-8623-4ba9-bff9-6b561316b152",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Sponsors",
+          "icon": "icon-flag-alt",
+          "weight": 2,
+          "featureType": 3,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "91cb3cfa-e6d9-4160-8e37-df0062168d32",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Schedule",
+          "icon": "icon-clock",
+          "weight": 3,
+          "featureType": 6,
+          "disabled": false,
+          "count": 3,
+          "home": false
+        },
+        {
+          "id": "0bf80e44-8aad-4deb-926f-89e28b669df4",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Interactive Map",
+          "icon": "icon-street-view",
+          "weight": 4,
+          "featureType": 10,
+          "disabled": false,
+          "count": 2,
+          "home": false
+        },
+        {
+          "id": "d2e10b1f-5b68-4a2c-aeb4-70a15494745c",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Photo Album",
+          "icon": "icon-image",
+          "weight": 14,
+          "featureType": 20,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "199e06a6-348b-4529-8918-2a9dc3f375cb",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Chat",
+          "icon": "icon-comments",
+          "weight": 15,
+          "featureType": 18,
+          "disabled": false,
+          "count": 0,
+          "home": false
+        },
+        {
+          "id": "88cde203-20ef-49f2-9b93-d7356d5cb827",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Info Booth",
+          "icon": "icon-info-circle",
+          "weight": 5,
+          "featureType": 7,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "9eb148ba-0c5d-4965-ae3a-07835080fc03",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Map",
+          "icon": "icon-map",
+          "weight": 6,
+          "featureType": 8,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "accc72bc-e136-4eb5-963b-5e095e78655b",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "About",
+          "icon": "icon-user",
+          "weight": 7,
+          "featureType": 9,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "ebd499cc-3c5b-43bb-932d-8738796ecb4c",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Twitter",
+          "icon": "icon-twitter",
+          "weight": 8,
+          "featureType": 11,
+          "disabled": false,
+          "count": 1,
+          "home": false
+        },
+        {
+          "id": "451e24d0-9d14-4883-8e79-98300f0c39e0",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Event Feedback",
+          "icon": "icon-comment-alt-lines",
+          "weight": 11,
+          "featureType": 17,
+          "disabled": false,
+          "count": 0,
+          "home": false
+        },
+        {
+          "id": "bd0919cc-ab4e-4ca4-b6ca-d9220cc7a554",
+          "eventId": "37b6ff68-fbab-457b-90c4-6bdc8f5954b9",
+          "name": "Video Album",
+          "icon": "icon-video",
+          "weight": 100,
+          "featureType": 19,
+          "disabled": false,
+          "count": 0,
+          "home": false
+        }
+      ]
+    }
+  },
+  "featuresId": {
+    "data": {
+      "id": "d67c0ee0-a6a3-4c28-aee5-6a9891f41526",
+      "spaceId": "e9acbfcd-3e14-304d-aad7-fa46d48f3be3",
+      "name": "About",
+      "icon": "icon-user",
+      "created": 1576839507414,
+      "createdBy": "484958b4-318e-4cf0-917b-449907ebc9bc",
+      "updatedBy": "484958b4-318e-4cf0-917b-449907ebc9bc",
+      "weight": 1,
+      "featureType": 1,
+      "disabled": false
+    },
+    "errorCode": null,
+    "message": null
+  },
+
+  "events": {
+    "data": {
+      "pagination": {
+        "size": 10,
+        "next": "MTA="
+      },
+      "events": [
+        {
+          "uniqueId": "63eff40a-f178-4935-9118-88c03646d4f0",
+          "eventName": "Event 1",
+          "shortName": "event-1",
+          "startDate": 1575785041706,
+          "endDate": 1576391023000,
+          "timezone": "Asia/Kathmandu",
+          "description": "This is a description for the Event 1.",
+          "ticketStatus": 1,
+          "ticketLabel": "Buy Ticket",
+          "ticketLink": "https://eventsmo.com/",
+          "homepage": "https://fawesomeapps.com",
+          "color": "#000000",
+          "coverImage": "https://minio.makingnepal.com/assets/event/bd199d75dedb4abda7ae8ef22467ff16",
+          "icon": "https://minio.makingnepal.com/assets/event/895ea25a61d04134bf41fa20b977acc6",
+          "privacyType": 2,
+          "passphrase": "secret",
+          "editPhase": 1,
+          "publishStatus": 0,
+          "totalRating": 0.0,
+          "spaceID": "8f76fb3d-0148-496a-9bd9-58d2c1270a98",
+          "created": 1576391355084,
+          "updated": null,
+          "createdBy": "484958b4-318e-4cf0-917b-449907ebc9bc",
+          "updatedBy": null
+        }
+      ]
+    },
+    "errorCode": null,
+    "message": null
+  },
+
+  "": "POST /spaces/8f76fb3d-0148-496a-9bd9-58d2c1270a98/events",
+  "eventsResponse": {
+    "data": {
+      "event": {
+        "id": "63eff40a-f178-4935-9118-88c03646d4f0",
+        "eventName": "Event 1",
+        "shortName": "event-1",
+        "startDate": 1575785041706,
+        "endDate": 1576391023000,
+        "timezone": "Asia/Kathmandu",
+        "description": "This is a description for the Event 1.",
+        "ticketStatus": 1,
+        "ticketLabel": "Buy Ticket",
+        "ticketLink": "https://eventsmo.com/",
+        "homepage": "https://fawesomeapps.com",
+        "color": "#000000",
+        "privacyType": 2,
+        "passphrase": "secret",
+        "editPhase": 1,
+        "publishStatus": 0,
+        "discoverable": false,
+        "venue": {
+          "id": "4576666d-8ab4-4295-b6a6-9ef5ba5e684d",
+          "name": "Yellow Nepal Pvt. Ltd.",
+          "address": "Pacific Building",
+          "street": "Putalisadak",
+          "city": "Kathmandu",
+          "state": "State-3",
+          "country": "Nepal",
+          "zipcode": 977,
+          "latitude": 27.7032021,
+          "longitude": 85.3204706
+        },
+        "socials": [
+          {
+            "provider": "LinkedIn",
+            "url": "https://linkedin.com"
+          },
+          {
+            "provider": "Facebook",
+            "url": "https://facebook.com"
+          },
+          {
+            "provider": "Twitter",
+            "url": "https://twitter.com"
+          },
+          {
+            "provider": "Instagram",
+            "url": "https://instagram.com"
+          }
+        ]
+      }
+    },
+    "errorCode": null,
+    "message": null
+  }
+}
