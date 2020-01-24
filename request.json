@@ -1,0 +1,93 @@
+{
+  "register": {
+    "firstName": "Json",
+    "lastName": "Bond",
+    "email": "nikesh@fawesomeapps.com",
+    "password": "password",
+    "clientId": "eventsmo-dashboard",
+    "username": "nikeshulak",
+    "phone": "9841000000",
+    "bio": "",
+    "location": "",
+    "designation": "",
+    "company": ""
+  },
+
+  // POST https://dashboard.eventsmo.makingnepal.com/api/v1/spaces/8f76fb3d-0148-496a-9bd9-58d2c1270a98/events
+  "eventJson": {
+    "eventName": "Event 1",
+    "shortName": "event-1",
+    "startDate": 1575785041706,
+    "endDate": 1576391023000,
+    "timezone": "Asia/Kathmandu",
+    "description": "This is a description for the Event 1.",
+    "ticketStatus": 1,
+    "ticketLabel": "Buy Ticket",
+    "ticketLink": "https://eventsmo.com/",
+    "homepage": "/feed",
+    "color": "#000000",
+    "privacyType": 2,
+    "passphrase": "secret",
+    "editPhase": 1,
+    "publishStatus": 0,
+    "discoverable": false,
+    "venue": {
+      "name": "Yellow Nepal Pvt. Ltd.",
+      "address": "Pacific Building",
+      "street": "Putalisadak",
+      "city": "Kathmandu",
+      "state": "State-3",
+      "country": "Nepal",
+      "zipcode": 977,
+      "latitude": 27.7032021,
+      "longitude": 85.3204706
+    },
+    "contact": {
+      "website": "https://fawesomeapps.com",
+      "email": "nikesh@fawesomeapps.com",
+      "phone": "9841000000",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "instagram": "https://instagram.com",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+
+  "postedJson": {
+    "eventName": "Event 1",
+    "shortName": "event-1",
+    "startDate": 1575785041706,
+    "endDate": 1576391023000,
+    "timezone": "Asia/Kathmandu",
+    "description": "This is a description for the Event 1.",
+    "ticketLabel": "Buy Ticket",
+    "ticketLink": "https://eventsmo.com/",
+    "homepage": "/feed",
+    "color": "#9123a7",
+    "privacyType": 0,
+    "passphrase": "secret",
+    "editPhase": 1,
+    "publishStatus": 0,
+    "discoverable": false,
+    "venue": {
+      "name": "Yellow Nepal Pvt. Ltd.",
+      "address": "Pacific Building",
+      "street": "Putalisadak",
+      "city": "Kathmandu",
+      "state": "State-3",
+      "country": "Nepal",
+      "zipcode": 977,
+      "latitude": 27.7032021,
+      "longitude": 85.3204706
+    },
+    "contact": {
+      "website": "https://fawesomeapps.com",
+      "email": "nikesh@fawesomeapps.com",
+      "phone": "9841000000",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com",
+      "instagram": "https://instagram.com",
+      "linkedin": "https://linkedin.com"
+    }
+  }
+}
